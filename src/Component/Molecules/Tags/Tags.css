@@ -1,0 +1,23 @@
+.sidebar__tags {
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.sidebar__tags_items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidebar__tags_item {
+    border-radius: 5px;
+    background-color: #7f8c8c;
+    padding: 5px 10px;
+    color: #e4f4f2;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.sidebar__tags_item:hover {
+    background-color: #e2534b;
+}

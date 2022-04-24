@@ -1,0 +1,68 @@
+
+.AboutPage {
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.our-team__inner {
+    width: 1170px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.our-team__cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-team__cards_margin {
+    margin: 80px 0;
+}
+
+.our-team__h1 {
+    color: #7f8c8c;
+    text-align: center;
+    font-size: 40pt;
+    margin: 0;
+    padding: 0;
+
+}
+
+.our-team__h2 {
+    font-size: 30pt;
+    color: #e1524b;
+}
+
+.our-team__p {
+    font-size: 13pt;
+    color: #7f8c8c;
+    line-height: 25px;
+}
+
+.our-team__block-with-text__margin-top {
+    margin-top: 40px;
+}
+
+.our-team__h2_orange {
+    color: #e1524b;
+}
+
+.our-team__h2_center {
+    text-align: center;
+}
+
+.our-team__h2_thin {
+    font-weight: lighter;
+}
+
+.our-team__p_center {
+    text-align: center;
+}
+
+.our-team__inner_margin_bottom {
+    margin-bottom: 50px;
+}

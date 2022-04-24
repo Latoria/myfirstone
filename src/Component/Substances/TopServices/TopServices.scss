@@ -1,0 +1,31 @@
+.TopServices{
+  border-radius: 4px;
+  padding: 30px;
+  background-color: #f7f6f6;
+
+
+ .TopServicesInfo{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0px;
+
+   .TopServicesInfo_text{
+
+     flex-direction: column;
+
+     .TopServicesInfo_title{
+       color: #7f8c8c;
+       font-size: 30px;
+       margin: 0;
+     }
+     .TopServicesInfo_description{
+       margin-top: 15px;
+       color: #777777;
+       font-size: 13px;
+       width: 770px;
+     }
+   }
+ }
+
+}

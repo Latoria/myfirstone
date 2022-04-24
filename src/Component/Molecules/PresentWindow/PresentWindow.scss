@@ -1,0 +1,73 @@
+.PresentWindow{
+
+.PresentWindowPanel{
+  display: flex;
+
+  padding: 0 5px 5px 5px;
+  flex-direction: column;
+  border-radius: 10px;
+
+
+  .WholePanel{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+
+     .LeftHalfPanel{
+       display: flex;
+
+       .RoundDotPanel{
+         margin-right: 8px;
+         height: 12px;
+         width: 12px;
+         border-radius: 50%;
+         background-color: white;
+       }
+     }
+    .RightHalfPanel{
+      display: flex;
+      align-self: center;
+      .OvalDotPanel{
+        width: 12px;
+        height: 6px;
+        background: white;
+        border-radius: 4px;
+      }
+      }
+    }
+
+    .PresentWindowContent{
+      border-radius: 10px;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+}
+}
+.PresentWindowSmall{
+  height: 260px;
+  width: 370px;
+}
+.PresentWindowBig{
+  height: 360px;
+  width: 570px;
+}
+.PresentWindowGreen{
+  background-color: #62b9b0;
+}
+.PresentWindowGray{
+  background-color: #7f8c8c;
+}
+
+.PresentWindowLeft{
+
+}
+.PresentWindowCenter{
+  margin: 0 -80px;
+  z-index: 1;
+}
+.PresentWindowRight{
+
+}

@@ -1,0 +1,25 @@
+.sidebar__recent-posts {
+    margin-bottom: 35px;
+}
+
+.sidebar__recent-posts_item {
+    box-shadow: 0 1px 0 #e5e6e6;
+    padding: 10px 0;
+    display: flex;
+}
+
+.recent-posts_item_mark {
+    padding: 0 8px;
+}
+
+.recent-posts__title {
+    color: #e35e56;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.recent-posts__date {
+    font-size: 11px;
+    color: #7f8c8c;
+}

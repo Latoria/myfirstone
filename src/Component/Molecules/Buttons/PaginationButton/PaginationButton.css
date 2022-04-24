@@ -1,0 +1,32 @@
+.page__pagination {
+    max-width: 100%;
+    display: flex;
+    gap: 10px;
+    margin: 25px 0;
+}
+
+.PaginationButton {
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 3px 0 #7f8c8c;
+    background-color: #8c9898;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #e4f4f2;
+
+}
+
+.active {
+    background-color: #649792;
+    box-shadow: 0 3px 0 #528b86;
+}
+
+.PaginationButton:hover {
+    background-color: #e5655d;
+    box-shadow: 0 3px 0 #e2534b;
+}

@@ -1,0 +1,139 @@
+
+.articles-list__item {
+  width: 870px;
+  padding-bottom: 50px;
+
+}
+
+.article-snippet {
+  display: flex;
+}
+
+.article-snippet__sidebar {
+  width: 70px;
+}
+
+.article-snippet__date__margin {
+  margin-bottom: 20px;
+}
+
+.article-snippet__date {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 3px 0 #e5e6e6;
+  border-radius: 5px;
+}
+
+.article-snippet__month {
+  font-size: 15pt;
+  color: #7f8c8c;
+  font-weight: lighter;
+}
+
+.article-snippet__day {
+  font-size: 30pt;
+  color: #7f8c8c;
+  font-weight: bold;
+}
+
+
+.article-snippet__type-icon {
+  width: 70px;
+  height: 70px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #7f8c8c;
+}
+
+.article-snippet_tags-item {
+  margin-left: 3px;
+  font-size: 13px;
+}
+
+.article-snippet_tags-item:not(:last-child)::after {
+  content: ",";
+}
+
+.article-snippet_tags-item-link {
+  color: #e2534b;
+  font-size: 13px;
+}
+
+.article-snippet_body {
+  width: 770px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  padding-bottom: 45px;
+  border-radius: 5px;
+  box-shadow: 0 3px 0 #e5e6e6;
+}
+
+.article-snippet_meta {
+  display: flex;
+  align-items: center;
+}
+
+.article-snippet_meta_margin {
+  margin-top: 20px;
+}
+
+.article-snippet_title {
+  color: #76c7c0;
+  font-size: 15pt;
+  margin: 0;
+
+}
+
+.article-snippet_tags {
+  margin-left: 11px;
+  display: flex;
+  align-items: center;
+}
+
+.article-snippet_author-item {
+  color: #7f8c8c;
+  font-size: 13px;
+}
+
+.article-snippet_comments {
+  margin-left: 25px;
+}
+
+.article-snippet_comments-item {
+  font-size: 13px;
+}
+
+.article-snippet_text {
+  font-size: 13pt;
+  color: #7f8c8c;
+  padding-right: 25px;
+  line-height: 20px;
+}
+
+.article-snippet_text-margin {
+  margin-top: 35px;
+}
+
+.orange-link {
+  color: #e2534b;
+  cursor: pointer;
+}
+
+.article-snippet__read-more {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+.article-snippet__read-more_margin {
+  margin-right: 20px;
+}

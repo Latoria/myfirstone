@@ -1,0 +1,14 @@
+.page-wrapper {
+    display: flex;
+    padding-top: 135px;
+}
+
+.articles-list {
+    width: 870px;
+}
+
+.page__sidebar {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+}

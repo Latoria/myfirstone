@@ -1,0 +1,117 @@
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+
+  margin: 0 auto;
+  min-height: 100vh;
+  min-width: 320px;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1179px;
+}
+
+.link {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #e1524b;
+  cursor: pointer;
+}
+
+.orangeLiMarker {
+  list-style-image: url('/Assets/icon/icon_arrow_right.svg');
+}
+
+
+.whiteLiMarker {
+  list-style: none;
+}
+
+.whiteLiMarker::before {
+  content: '';
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  background-image: url('/Assets/icon/icon_chevron_right.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-right: 10px;
+}
+
+.WhiteSmallText {
+  font-size: 13pt;
+  color: #e4f4f2;
+  line-height: 25px;
+  padding: 0;
+}
+
+.BreadCrumbNav {
+  position: relative;
+  display: flex;
+  height: 80px;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: center;
+  padding: 30px 10px;
+  background-color: #ececec;
+}
+
+.BreadCrumbNav:after {
+  content: '';
+  position: absolute;
+  background-color: #ececec;
+  width: 20px;
+  height: 20px;
+  bottom: 0;
+  transform: translateY(10px) translateX(-580px) rotate(45deg);
+}
+
+.BreadCrumbNavWrapper {
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.BreadCrumbCurrent {
+  font-size: 20pt;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #6f7a7a;
+}
+
+.BreadCrumbs ul li {
+  display: inline-block;
+  color: #7f8c8c;
+  font-size: 12pt;
+
+}
+
+.BreadCrumbs ul li:not(:last-child)::after {
+  content: "/";
+  margin: 0 10px 0 10px;
+
+}
+
+.m-page__wrapper {
+  width: 1170px;
+  margin: 0 auto;
+}

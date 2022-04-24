@@ -1,0 +1,28 @@
+.WhyUsContent {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  padding: 20px 0;
+
+  .WhyUsTitle {
+    margin: 0;
+    font-size: 40pt;
+    color: #e1524b;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .WhyUsDescription {
+    margin: 0;
+    color: #777777;
+    font-size: 13pt;
+    text-align: center;
+  }
+
+
+}
+
+
+
+

@@ -1,0 +1,42 @@
+.DropButton {
+  position: relative;
+  color: #e4f4f2;
+  display: flex;
+  align-items: center;
+  background-color: #e8645a;
+  box-shadow: 0px 3px 0px #e2534b;
+  border-radius: 4px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+
+}
+.DropButtonSelect{
+  left: 0;
+  top: 50px;
+  position: absolute;
+  color: #e4f4f2;
+  display: flex;
+  gap: 5px;
+  //display: none;
+  width: 200px;
+  background-color: #e2534b;
+  border-radius: 4px;
+  flex-direction: column;
+  padding: 5px;
+
+  .SelectButton{
+    color: #e4f4f2;
+    padding: 10px;
+    background-color: #e8645a;
+    border-radius: 4px;
+
+    .DropButtonRotate{
+      transform: rotateZ(-90deg);
+    }
+
+    &:hover{
+      background-color: #76c7c0;
+    }
+  }
+}
+

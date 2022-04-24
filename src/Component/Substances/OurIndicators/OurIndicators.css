@@ -1,0 +1,69 @@
+.ClientsFeedBack {
+    display: flex;
+    margin-top: 50px;
+}
+
+.ClientsFeedBackTitle {
+    color: #7f8c8c;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+.ClientsFeedBackText {
+    font-size: 13pt;
+    color: #777777;
+    padding-left: 15px;
+    font-style: italic;
+    height: 100px;
+    overflow: auto;
+}
+
+.ClientsFeedBackRight {
+    width: 300px;
+    padding-left: 30px;
+}
+
+.ClientsFeedBackName {
+    margin-left: 60px;
+    margin-top: 25px;
+    font-weight: bold;
+    color: #777777;
+}
+
+.ClientsFeedBackCenter {
+    width: 570px;
+}
+
+.ClientsFeedBackLeft {
+    width: 300px;
+}
+
+.ClientsFeedBackCenterText {
+    text-align: center;
+    font-size: 13pt;
+    color: #777777;
+}
+
+.ClientsFeedBackCenterIndicators {
+    margin-top: 50px;
+    display: flex;
+    gap: 25px;
+}
+
+.RoundItem {
+    width: 90px;
+    height: 43px;
+    color: transparent;
+    border: 15px solid #e2534b;
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+    border-bottom: none;
+}
+
+
+.RoundNumber {
+    margin: 5px;
+    text-align: center;
+    font-size: 30pt;
+    font-weight: bold;
+    color: #7f8c8c;
+}

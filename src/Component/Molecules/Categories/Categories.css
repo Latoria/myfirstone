@@ -1,0 +1,27 @@
+.sidebar__categories {
+    margin-bottom: 45px;
+}
+
+
+.sidebar__categories_item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.categories_item_arrow {
+    width: 14px;
+    height: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #62b9b0;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.sidebar__categories_item_link {
+    text-transform: uppercase;
+    color: #e2534b;
+}

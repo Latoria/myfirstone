@@ -1,0 +1,47 @@
+@import "src/Styles/Variables";
+
+.Navbar {
+  background: #76c7c0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .NavbarContent{
+    width: $base-content-width;
+    display: flex;
+    justify-content: space-between;
+
+    .NavbarLogo{
+      display: flex;
+
+
+      justify-content: center;
+      .Modus{
+        font-size: 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #e4f4f2;
+      }
+      .Versus{
+        font-size: 30px;
+        text-transform: lowercase;
+        color: #e4f4f2;
+      }
+  }
+
+  }
+
+  .NavbarLinks{
+
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    cursor: pointer;
+    svg{
+      fill:  #e4f4f2;
+    }
+  }
+}
+
